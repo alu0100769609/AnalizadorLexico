@@ -14,10 +14,11 @@ html *
     height: 1in;
     overflow: auto;
     /* padding: 0.5em; */
-    width: 80%;
+    width: 50%;
     background-color: #66FFCC;
+    border: green solid 1pt;
 }
-body { background-color: #99FFFF; }
+body { background-color: #A9F5F2; }
 #OUTPUT
 {
     background-color: #66FFCC;

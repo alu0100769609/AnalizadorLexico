@@ -1,0 +1,23 @@
+{
+  "name": "Analizador-Lexico",
+  "version": "1.0.0",
+  "description": "Analizador Lexico",
+  "main": "main.js",
+  "scripts": {
+    "test": "xdg-open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100769609/AnalizadorLexico.git"
+  },
+  "keywords": [
+    "Analizador",
+    "Lexico"
+  ],
+  "author": "alu0100769609",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100769609/AnalizadorLexico/issues"
+  },
+  "homepage": "https://github.com/alu0100769609/AnalizadorLexico"
+}
