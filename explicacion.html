@@ -20,20 +20,21 @@ Es un lenguaje dinamico con una comunidad a la que le gusta la sintaxis.</p>
   Esto consiste en:</p>
 
 <ul>
-  <li>Functions as first class objects. Functions in Simplified JavaScript
-    are lambdas with lexical scoping.</li>
- <li>Dynamic objects with prototypal inheritance. Objects are
-     class-free. We can add a new member to any object by ordinary assignment.
-     An object can inherit members from another object.</li>
- <li>Object literals and array literals. This is a very convenient notation for
-     creating new objects and arrays. JavaScript literals were the inspiration
-     for the <a href="http://www.json.org/">JSON</a> data interchange format.</li>
+  <li>Funciones como objectos de primera clase. Las funciones en el JavaScript Simplificado
+    son lambdas con ambito lexico.</li>
+ <li>Objetos dinamicos con herencia prototipal. Los objetos no tienen clase.
+   Podemos agregar un miembro nuevo a cualquier objeto mediante asignacion normal.
+   Un objeto puede heredar miembros de otro objeto.</li>
+ <li>Literales de objeto y literales de array. Esta es una notacion muy conveniente para crear
+   nuevos objetos y arrays. Los literales de JavaScript fueron la inspiracion para el formato
+   de intercambio <a href="http://www.json.org/">JSON</a>.</li>
 </ul>
 
-<p>We will take advantage of JavaScript's prototypal nature to make token
-  objects that inherit from symbols. Our implementation depends on an <code>Object.create</code>
-  method (which makes a new object that inherits members from an existing
-  object) and a tokenizer (which produces an array of simple token objects
+<p>Nos aprovecharemos de la naturaleza prototipal de JavaScript para hacer objetos Token que hereden de simbolos.
+  Nuestra implementacion depende de un <b>metodo</b> <code>Object.create</code>
+  (which makes a new object that inherits members from an existing
+  object)
+  y un tokenizador (which produces an array of simple token objects
   from a string). We will advance through this array of tokens as we grow
   our parse tree. </p>
 <h2>Symbol Table</h2>
