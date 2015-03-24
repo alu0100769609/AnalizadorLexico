@@ -168,7 +168,8 @@ var make_parse = function () {
         }
     };
 
-    var symbol = function (id, bp) { // bp = binding power
+    //funcion
+    var symbol = function (id, bp) { // id = string, bp = binding power
         var s = symbol_table[id];
         bp = bp || 0;
         if (s) {
@@ -242,12 +243,14 @@ var make_parse = function () {
         return s;
     };
 
-    var stmt = function (s, f) {
-        var x = symbol(s);
-        x.std = f;
-        return x;
+    //Devolvemos el simbolo equivalente de s y le asignamos f en su attr std.
+    var stmt = function (s, f) {  //s es string, f es funcion anonima.
+        var x = symbol(s);  //x es el simbolo equivalente de s.
+        x.std = f;  //el atributo std de x sera f
+        return x; //devolvemos el sym con su std modificado.
     };
 
+    //para que sirven estas llamadas? sin asignacion...
     symbol("(end)");
     symbol("(name)");
     symbol(":");
