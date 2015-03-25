@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/alu0100769609/AnalizadorLexico",
   "devDependencies": {
+    "blanket": "^1.1.6",
     "chai": "^2.1.2",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
