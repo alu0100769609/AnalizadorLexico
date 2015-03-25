@@ -2,9 +2,9 @@
   "name": "Analizador-Lexico",
   "version": "1.0.0",
   "description": "Analizador Lexico",
-  "main": "main.js",
+  "main": "index.html",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --browsers PhantomJS"
+    "test": "xdg-open tests/index.html"
   },
   "repository": {
     "type": "git",
