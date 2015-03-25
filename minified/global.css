@@ -1,0 +1,19 @@
+html *,td{vertical-align:top;padding-right:10px;padding-left:10px}
+#INPUT,a:visited{color:#000}
+.mylink,.selectFile{-webkit-border-radius:15px;-moz-border-radius:15px}
+html *{border:1px solid #000;text-align:left}
+td{background-color:#fff;border:1pt solid #000}
+table{width:90%;border:0;cellpadding:0}
+#INPUT{font-family:monospace;height:1in;overflow:auto;width:50%;background-color:#6FC;border:1pt solid green}
+body{background-color:#A9F5F2}
+#OUTPUT{background-color:#6FC;width:80%}
+a{font-size:x-large;text-decoration:none}
+a:link{color:#0FF}
+a:hover{background-color:#000;color:#FFF}
+.mylink,.selectFile{background-color:#6FC}
+a:active{color:#00F}
+nav{text-align:center}
+nav li{list-style:none;display:inline;margin:0 1em}
+.mylink{border:5px solid #090;padding:5px}
+.selectFile{border:2px solid #090;padding:5px}
+#PARSE:focus{outline:0}
