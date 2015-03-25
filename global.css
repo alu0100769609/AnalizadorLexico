@@ -59,5 +59,13 @@ nav li {
   padding: 5px;
 }
 
+.selectFile {
+  background-color: #66FFCC;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 2px solid #009900;
+  padding: 5px;
+}
+
 /* Supress borders after the button is pressed */
 #PARSE:focus {outline:0; }
