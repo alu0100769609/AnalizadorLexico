@@ -4,7 +4,7 @@
   "description": "Analizador Lexico",
   "main": "index.html",
   "scripts": {
-    "test": "xdg-open tests/index.html"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
