@@ -7,4 +7,11 @@ suite('AnalisisLexico', function() {
          var exit = JSON.stringify(ent.tokens());
          assert.deepEqual(exit, wait);
     	});
+
+	test('Deteccion de entradas no validas', function() {
+    var ent = "badinput";
+        var wait = '[]';
+         var exit = JSON.stringify(ent.tokens());
+         assert.deepEqual(exit, wait);
+    	});
 });
